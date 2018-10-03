@@ -1,6 +1,6 @@
-#The doomsday algorithm is a method of determining what the day is based on the date
+#The doomsday algorithm is a method of determining what the day is based on the date.
 
-#need to know whether it is a leapyear for calculation
+#need to know whether it is a leapyear for calculation.
 def isLeapYear(yearToCheck):
     if yearToCheck%4 == 0 and yearToCheck%100 != 0 or yearToCheck%400 == 0:
         return(True)
@@ -102,9 +102,5 @@ def doomsDay(date):
     if result2 == 7 or result2 == 0:
         calculatedDay = "Sunday"
     return(calculatedDay)
-
-#print ("Enter a date in DD/MM/YYYY format:")
-#thing = input()
-#print(doomsDay(thing))
 
 
